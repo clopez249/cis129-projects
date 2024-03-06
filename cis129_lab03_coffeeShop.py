@@ -19,7 +19,7 @@ def calculate_total(coffee_count, muffin_count):
 # Function to display the receipt
 def display_receipt(coffee_count, muffin_count, total, subtotal, tax):
     print("***************************************")
-    print("My Coffee and Muffin Shop Receipt")
+    print("Chris' Famous Coffee")
     print(f"{coffee_count} Coffee at $5 each: ${coffee_count * 5:.2f}")
     print(f"{muffin_count} Muffins at $4 each: ${muffin_count * 4:.2f}")
     print(f"6% tax: ${tax:.2f}")
@@ -29,7 +29,7 @@ def display_receipt(coffee_count, muffin_count, total, subtotal, tax):
 
 def main():
     print("***************************************")
-    print("My Coffee and Muffin Shop")
+    print("Chris' Famous Coffee")
     
     # Input number of coffees and muffins
     coffee_count = int(input("Number of coffees bought?\n"))
